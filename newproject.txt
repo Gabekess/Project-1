@@ -1,4 +1,4 @@
-This is the new project, with letters
+This is the new project, with diff characters
 1
 2
 3
@@ -10,3 +10,4 @@ B
 C
 D
 E
+#U%*(%@$(*
