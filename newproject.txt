@@ -1,14 +1,27 @@
-This is the new project, with diff characters
-1
-2
-3
-4
-5
-6
-A
-B
-C
-D
-E
-#&%(@&(
-1234
+# ygfraudemail
+
+## Goals 
+1. Detect fraudulent emails and remove them from the panel. 
+1. Determine which features appear in fraudulent emails compared to 
+non-fraudulent ones. 
+1. Compare email data to other datasets to verify their validity. 
+ 
+## Methodology 
+ 
+### Feature Engineering Ideas 
+1. Analyze and pull names in email addresses to see if they correspond to 
+names given in the survey or in datasets such as the census 
+1. Look for whether a person’s initials appear in the email address 
+1. Check whether email addresses include birthdays or dates in general 
+1. See how many special characters and what type of characters are 
+included, how obscure and uncommon 
+1. Check email domains (gmail.com, hotmail.com, outlook.com, etc.) 
+1. See if any places are mentioned in the email that correspond to a 
+location given in the survey. 
+1. Look for frequently used words (other than names/places) 
+ 
+### Additional Data that may be useful: 
+1. Census (first/last name, birthdays, location) 
+1. Social media account names, check if email name corresponds 
+1. There are additional email datasets listing known spam and phishing 
+emails, potential overlap with these.
